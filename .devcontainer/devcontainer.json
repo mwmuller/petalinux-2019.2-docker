@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"name": "Petalinux",
-	"image": "petalinux-${localEnv:USER}",
+	"image": "darknessoup/petalinux-2019.2:20240703_1",
 	"initializeCommand": "${localWorkspaceFolder}/.devcontainer/initializeCommand.sh",
 	"customizations": {
 		"vscode": {
